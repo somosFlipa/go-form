@@ -188,8 +188,9 @@ main {
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin-left: 150px;
-    margin-right: 150px; }
+   /*  margin-left: 150px;
+    margin-right: 150px; */
+    justify-items: center; }
     main .service .cards .card {
       margin-top: 85px;
       margin-bottom: 85px;

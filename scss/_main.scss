@@ -1,0 +1,231 @@
+$font: "Roboto", sans-serif;
+$aqua: #57dfb7;
+$blue: #253dd5;
+
+main {
+  font-family: "Roboto", sans-serif;
+
+  .about-us {
+    background: linear-gradient(to bottom, #c4c4c417, white 60%, #c4c4c417);
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 648px;
+    margin-top:150px;
+    .text-center {
+      padding-top: 10px;
+      h4 {
+        font-size: 25px;
+        font-weight: 700;
+        color: $aqua;
+        margin-top: 50px;
+      }
+      h3 {
+        font-size: 45px;
+        font-weight: 700;
+      }
+    }
+    .parent {
+      margin-top: 60px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      .p1 {
+        img.photo {
+          border-radius: 20px;
+          width: 319px;
+          height: 364px;
+          margin-left: 50px;
+        }
+        .contact {
+          margin-top: -40px;
+          margin-left: 80px;
+          background-color: #fff;
+
+          span {
+            margin-left: 10px;
+            color: #fff;
+          }
+        }
+      }
+      .p2 {
+        img.photo {
+          border-radius: 20px;
+          width: 319px;
+          height: 364px;
+          margin-left: 5px;
+        }
+        .contact {
+          margin-top: -40px;
+          margin-left: 80px;
+
+          span {
+            margin-left: 10px;
+            color: #fff;
+          }
+        }
+      }
+      .p3 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-left: -20px;
+        margin-right: 50px;
+      }
+    }
+  }
+  .service {
+    .text-center {
+      padding-top: 10px;
+      h4 {
+        font-size: 25px;
+        font-weight: 700;
+        color: $aqua;
+        margin-top: 50px;
+      }
+      h3 {
+        font-size: 45px;
+        font-weight: 700;
+      }
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      margin-left: 150px;
+      margin-right: 150px;
+      .card {
+        margin-top: 85px;
+        margin-bottom: 85px;
+        border-radius: 12px;
+        width: 316px;
+        height: 395px;
+        text-align: center;
+        box-shadow: 0px 20px 40px rgba(29, 29, 29, 0.1);
+        border: none;
+
+        img {
+          margin-top: 40px;
+          margin-bottom: 40px;
+        }
+        .card-title {
+          font-size: 25px;
+          font-weight: 700;
+          color: $aqua;
+        }
+        .card-text {
+          font-size: 16px;
+          font-weight: 400;
+          margin-top: 55px;
+          margin-left: 25px;
+          margin-right: 25px;
+        }
+      }
+    }
+  }
+  section.contacto {
+    background: linear-gradient(to bottom, #c4c4c417, white 60%, #c4c4c417);
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 1150px;
+    .text-center {
+      padding-top: 10px;
+      h4 {
+        font-size: 25px;
+        font-weight: 700;
+        color: $aqua;
+        margin-top: 50px;
+      }
+      h3 {
+        font-size: 45px;
+        font-weight: 700;
+      }
+    }
+    .row {
+      margin-top: 60px;
+      width: 1110px;
+      height: 849px;
+      background-color: #fff;
+      margin-left: 60px;
+      margin-right: 50px;
+      box-shadow: 0px 20px 40px rgba(29, 29, 29, 0.1);
+      border-radius: 12px;
+    }
+    .col-lg-6.imagenes {
+      .astronauta {
+        width: 491px;
+        height: 653px;
+        margin-top: -100px;
+      }
+      .dialog {
+        width: 122px;
+        height: 117px;
+        margin-top: 100px;
+        margin-left: 100px;
+      }
+    }
+    .form {
+      background: linear-gradient(-50deg, #57dfb773, white);
+      border-radius: 26px 0px 0px 26px;
+      font-family: $font;
+      font-size: 16px;
+      font-weight: 600;
+      padding-top: 35px;
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+
+      h5 {
+        font-size: 40px;
+        font-weight: 600;
+      }
+      h6 {
+        font-size: 22px;
+        font-weight: 400;
+      }
+      p {
+        margin-left: 35px;
+        margin-top: 20px;
+      }
+      input {
+        font-size: 20px;
+        width: 461.96px;
+        height: 60.41px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        background-color: transparent;
+        margin-left: 35px;
+        margin-right: 70px;
+        border: 0.5px solid #161616;
+      }
+      textarea {
+        width: 461.96px;
+        height: 155.26px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        background-color: transparent;
+        margin-left: 35px;
+        margin-right: 70px;
+        border: 0.5px solid #161616;
+      }
+      button {
+        margin-left: 35px;
+        border: none;
+        background-color: $aqua;
+        width: 212px;
+        height: 50.12px;
+        border-radius: 9px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 800;
+      }
+      button:hover {
+        border: solid $aqua 2px;
+        background-color: transparent;
+        color: $aqua;
+      }
+    }
+  }
+}

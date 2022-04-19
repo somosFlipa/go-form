@@ -1,0 +1,27 @@
+$font: "Roboto", sans-serif;
+$aqua: #57dfb7;
+nav {
+  font-family: $font;
+
+  .logo {
+    margin-left: 100px;
+  }
+
+    a{
+    display: flex;
+    justify-items: end;
+    font-size: 24px;
+    font-weight: 500; 
+  }
+  
+  .navbar-toggler{
+    max-width: 40px;
+    max-height: 40px;
+    z-index: 3;
+  }
+  .collapse{
+    margin-left: 600px;
+  }
+
+
+}
